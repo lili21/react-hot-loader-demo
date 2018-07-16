@@ -1,25 +1,12 @@
-webpack-4-demo
-==============
-> migrate guide
+react-hot-loader demo
+===
 
-Simple yet complete config.
-
-Get Start
----------
+reproduce steps
+---
 
 ```bash
-# install dependencies
-yarn
-
-# serve with hot reload at localhost:8080
-npm start
-
-# build for production with minification
-npm build
+$ yarn
+$ yarn build
 ```
 
-Knowing Issue
--------------
-
-- [HMR](https://github.com/webpack-contrib/mini-css-extract-plugin/issues/34)
-
+checkout the `dist/main-{hash}.chunk.js` file. and You will notice the file path be included.
